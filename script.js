@@ -8,7 +8,7 @@ const CONFIG = {
 
   // URL do Instagram oficial. Exemplo: "https://www.instagram.com/usuario/"
   // Enquanto estiver vazio, os links de Instagram ficam ocultos.
-  instagram: "",
+  instagram: "https://www.instagram.com/dmsalaodebelezaeestetica/",
 
   // Mensagem padrão dos botões de agendamento.
   message: "Olá! Gostaria de saber mais sobre os serviços do DM Salão de Beleza e Estética e consultar a disponibilidade de horários."
