@@ -103,5 +103,10 @@ $$(".ph img").forEach(img => {
   else { img.addEventListener("load", ok); img.addEventListener("error", fail); }
 });
 
+/* Logo: usa IMG_6894.jpeg se o arquivo estiver na pasta; senão mantém o monograma em texto */
+const logoProbe = new Image();
+logoProbe.onload = () => document.body.classList.add("logo-ok");
+logoProbe.src = "IMG_6894.jpeg";
+
 /* Ano atual */
 $("#year").textContent = new Date().getFullYear();
