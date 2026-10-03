@@ -4,7 +4,7 @@
 const CONFIG = {
   // Número oficial com DDI + DDD, só dígitos. Exemplo: "5517999999999"
   // Enquanto estiver vazio, os botões avisam que o canal ainda não foi configurado.
-  whatsapp: "",
+  whatsapp: "5517996026395",
 
   // URL do Instagram oficial. Exemplo: "https://www.instagram.com/usuario/"
   // Enquanto estiver vazio, os links de Instagram ficam ocultos.
